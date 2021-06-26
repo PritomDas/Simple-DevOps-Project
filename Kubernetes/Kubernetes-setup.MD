@@ -67,7 +67,7 @@
     ```sh
     kops update cluster demo.k8s.valaxy.net --yes
     ```
-1. To cahnge the kubernetes master and worker instance sizes 
+1. To change the kubernetes master and worker instance sizes 
    ```sh 
    kops edit ig --name=<cluster_name> nodes
    #kops edit ig --name=demo.k8s.valaxy.net nodes 
